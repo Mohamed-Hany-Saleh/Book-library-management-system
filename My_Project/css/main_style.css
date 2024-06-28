@@ -1,0 +1,62 @@
+@font-face {
+    font-family: cairo;
+    src: url("../fonts/Cairo-SemiBold.ttf");
+}
+
+body{
+    background-image: url("../media/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255, 0.25);
+    overflow: hidden;
+  }
+  
+
+  .nav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: cairo;
+  }
+  
+
+  .nav a:hover {
+    background-color: #ffffff;
+    color: #3669a7;
+  }
+  
+ 
+  .nav a.active {
+    background-color: #3669a7;
+    color: white;
+  } 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input, select{
+  outline: none;
+}
+
+input:focus{
+  border: 2px solid #3669a7;
+}
+
+select:focus{
+  border: 2px solid #3669a7;
+}
+
+select{
+  appearance: none;
+}

@@ -1,0 +1,58 @@
+.more-div {
+    height: 500px;
+    width: 1000px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: cairo;
+    background-color: rgba(255, 255, 255, 0.25)
+}
+
+input {
+    margin: 20px 20px;
+    display: block
+}
+
+#number {
+    width: 250px;
+    height: 25px;
+    padding: 5px 10px;
+    margin-top: 20px
+}
+
+#button {
+    height: 40px;
+    width: 275px;
+    float: bottom;
+    color: #ffffff;
+    background-color: #3669a7;
+    border: 0px;
+    padding: 5px 50px
+}
+
+#button:hover {
+    color: #3669a7;
+    background-color: #ffffff
+}
+
+table {
+    float: right;
+    height: auto;
+    width: 645px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-collapse: collapse;
+    
+}
+
+th {
+    padding: 5px 5px;
+    background-color: #3669a7;
+    color: white
+}
+
+td {
+    padding: 5px 5px ;
+    background-color: #f2f2f2;
+    text-align: center
+}
